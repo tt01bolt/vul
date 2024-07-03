@@ -5,7 +5,7 @@ Shenzhen Libituo Technology Co., Ltd LBT-T300-T400 v3.2 was discovered to contai
 ## 1.pin_3g_code 
 
 ### Vulnerability analysis
-Due to the lack of data length restrictions of the pin_3g_code parameter, a buffer overflow vulnerability is created.
+Due to the lack of data length restrictions of the pin_3g_code parameter in function config_3g_para, a buffer overflow vulnerability is created.
 
 function call chain
 Main()->start3g_main()->config_3g_para().
@@ -35,7 +35,7 @@ wan_proto=5&submit_button=wan_3g&change_action=&action=Apply&wan_dns_enable=0&au
 ## 2.apn_name_3g
 
 ### Vulnerability analysis
-Due to the lack of data length restrictions of the apn_name_3g parameter, a buffer overflow vulnerability is created.
+Due to the lack of data length restrictions of the apn_name_3g parameter in function config_3g_para, a buffer overflow vulnerability is created.
 
 function call chain
 Main()->start3g_main()->config_3g_para().
