@@ -9,7 +9,8 @@ Due to the lack of data length restrictions of the pin_3g_code parameter, a buff
 
 function call chain
 Main()->start3g_main()->config_3g_para().
-![alt text](image.png)
+![image](https://github.com/tt01bolt/vul/assets/174292371/6291a35a-e9a2-4661-a459-3f9ef7f32d49)
+
 > Payload
 
 ```html
@@ -38,7 +39,7 @@ Due to the lack of data length restrictions of the apn_name_3g parameter, a buff
 
 function call chain
 Main()->start3g_main()->config_3g_para().
-![alt text](image-2.png)
+![image-2](https://github.com/tt01bolt/vul/assets/174292371/3561454f-fb8d-4403-8fb2-204149d26c67)
 > Payload
 
 ```html
